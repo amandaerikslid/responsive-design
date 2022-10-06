@@ -1,0 +1,39 @@
+body {
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+    box-sizing: border-box;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.dots {
+    width: 5%;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    cursor: pointer;
+
+}
