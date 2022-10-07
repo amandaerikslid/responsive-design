@@ -71,6 +71,7 @@ nav ul li a:hover {
     letter-spacing: -2px;
     text-align: center;
     color: #FFFFFF;
+    margin: 5px;
 }
 
 .text {
@@ -82,11 +83,15 @@ nav ul li a:hover {
     line-height: 34px;
     text-align: center;
     color: #FFFFFF;
-    margin: 30px;
+    margin: 30px 5px;
     
 }
 
-
+@media screen and (max-width: 800px) {
+    .text {
+        width: 60%;
+    }
+}
 
 
 
