@@ -20,13 +20,13 @@
         <div class="navbar">
             <img src="/images/Logo (1).svg" alt="Head Logo" class="logo">
             <nav>
-                <ul>
+                <ul id="menuList">
                     <li><a href="#">Works</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contacts</a></li>
                 </ul>
             </nav>
-            <img src="/images/dots.svg" alt="Dots" class="dots">
+            <img src="/images/dots.svg" alt="Dots" class="dots" onclick="togglemenu">
         </div>
 
 
@@ -37,6 +37,24 @@
             <div><img src="/images/Image.png" alt="Mountain"></div>
         </div>
     </div>
+
+
+    <script>
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+
+            if(menuList.style.maxHeight == "0px") 
+            {
+                menuList.style.maxHeight = "130px";
+            }
+            else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
 
 
 </body>
